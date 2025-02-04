@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #121212; 
+    color: #e0e0e0; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  a {
+    color: #bb86fc; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  button {
+    background-color: #bb86fc; 
+    color: #121212; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #9a67ea; 
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333; 
+  }
+  
+  th {
+    background-color: #1e1e1e; 
+    color: #e0e0e0;
+  }
+  
+  
+  input, textarea {
+    background-color: #1e1e1e; 
+    color: #e0e0e0; 
+    border: 1px solid #333; 
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #bb86fc; 
+    outline: none;
+  }
+  
+ 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .error-message {
+    color: #ff6b6b; 
+    font-size: 14px;
+    margin-top: 5px;
+  }

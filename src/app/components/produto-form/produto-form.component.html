@@ -1,0 +1,16 @@
+<div class="produto-form">
+  <h2>Cadastrar Produto</h2>
+  <form (ngSubmit)="cadastrarProduto()">
+    <label for="codigo">Código:</label>
+    <input id="codigo" [(ngModel)]="produto.codigo" name="codigo" required>
+
+    <label for="nome">Nome:</label>
+    <input id="nome" [(ngModel)]="produto.nome" name="nome" required>
+
+    <label for="preco">Preço:</label>
+    <input id="preco" type="number" [(ngModel)]="produto.preco" name="preco" required>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+  <a routerLink="/">Voltar</a>
+</div>

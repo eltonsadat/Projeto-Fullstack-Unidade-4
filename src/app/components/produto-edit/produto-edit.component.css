@@ -1,0 +1,23 @@
+.produto-edit {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .produto-edit h2 {
+    color: #bb86fc; 
+  }
+  
+  .produto-edit label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0e0e0; 
+  }
+  
+  .produto-edit input {
+    margin-bottom: 15px;
+  }
+  
+  .produto-edit button {
+    margin-top: 10px;
+  }

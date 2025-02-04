@@ -1,0 +1,27 @@
+.produto-list {
+    padding: 20px;
+  }
+  
+  .produto-list h2 {
+    color: #bb86fc;
+  }
+  
+  .produto-list table {
+    margin-top: 20px;
+  }
+  
+  .produto-list table td {
+    color: #e0e0e0; 
+  }
+  
+  .produto-list table tr:hover {
+    background-color: #1e1e1e; 
+  }
+  
+  .produto-list a {
+    color: #bb86fc; 
+  }
+  
+  .produto-list a:hover {
+    text-decoration: underline;
+  }

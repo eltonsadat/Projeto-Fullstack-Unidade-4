@@ -1,0 +1,23 @@
+.produto-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .produto-form h2 {
+    color: #bb86fc; 
+  }
+  
+  .produto-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0e0e0; 
+  }
+  
+  .produto-form input {
+    margin-bottom: 15px;
+  }
+  
+  .produto-form button {
+    margin-top: 10px;
+  }

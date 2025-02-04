@@ -1,0 +1,16 @@
+<div class="produto-edit">
+  <h2>Editar Produto</h2>
+  <form (ngSubmit)="atualizarProduto()">
+    <label for="codigo">Código:</label>
+    <input id="codigo" [(ngModel)]="produto.codigo" name="codigo" required>
+
+    <label for="nome">Nome:</label>
+    <input id="nome" [(ngModel)]="produto.nome" name="nome" required>
+
+    <label for="preco">Preço:</label>
+    <input id="preco" type="number" [(ngModel)]="produto.preco" name="preco" required>
+
+    <button type="submit">Atualizar</button>
+  </form>
+  <a routerLink="/">Voltar</a>
+</div>
